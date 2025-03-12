@@ -141,7 +141,7 @@
    
 ---
 
-### EDUCATION
+### Education
 
 **5. AI for Scientific Discovery**
 
