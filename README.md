@@ -34,6 +34,10 @@
 
 16. AI-Generated Music with Transformers
 
+17. AI-Powered Fake News & Misinformation Detector
+
+       
+
 -------------------------------
 
 
@@ -108,4 +112,13 @@
     Create a system that generates new fonts based on user preferences or existing styles.
 
     Use GANs or VAEs for creative font synthesis.
+
+#### **17. AI-Powered Fake News & Misinformation Detector**
+
+    Tech: NLP (BERT, RoBERTa) + Computer Vision (Deepfake Detection)
+    Idea: A browser extension or API that scans articles, images, and videos to flag potential misinformation and deepfakes.
+    Advanced Features:
+        Cross-references claims with verified sources.
+        Detects AI-generated images/videos using computer vision.
+    Challenge: Fine-tuning models to detect subtle misinformation and adversarial AI-generated content.
 
