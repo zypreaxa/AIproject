@@ -2,13 +2,16 @@
 - The installation is done by running pip install -r requirements.txt (preferably using a virtual environment). However, the torch versions should be installed seperately by using the pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124 command.
 
 ---
-### **14. AI for Generating Custom Fonts**
+## **Project domain**
+### **AI for Generating Custom Fonts**
 
     Create a system that generates new fonts based on user preferences or existing styles.
 
     Use GANs or VAEs for creative font synthesis.
 
+---
 
+## **Suggested workflow and recommendations for the project**
 
     1️⃣ Model Selection – Which AI model should we use?
 
@@ -107,12 +110,9 @@ Backend	Python (PyTorch, FastAPI)
 Frontend	React.js + Canvas API
 Deployment	Hugging Face (model), Vercel (UI)
 
-Would you like a deeper dive into any of these choices or an example code snippet for any part? 🚀
-You said:
-Wait, what would the output be when it comes to this?
-ChatGPT said:
+---
 
-Great question! The output of your AI-powered font generator depends on the approach you take, but generally, it should be a usable digital font file (TTF, OTF, or SVG). Here’s a breakdown of possible outputs:
+The output of your AI-powered font generator depends on the approach you take, but generally, it should be a usable digital font file (TTF, OTF, or SVG). Here’s a breakdown of possible outputs:
 1️⃣ Ideal Output Format:
 Output Type	Description	Usage
 .TTF / .OTF (TrueType/OpenType Font)	Standard font file that users can install and use in design software or word processors.	Directly usable on Windows/Mac/Linux, in software like Photoshop, Word, and websites.
@@ -158,13 +158,4 @@ Example Workflow:
 
     The user downloads the finished TTF/OTF font file.
 
-Would You Like Help With...?
-
-    A script to automate font conversion (SVG → TTF)?
-
-    Choosing the right post-processing tools for font cleanup?
-
-    Implementing a real-time font preview before download?
-
-Let me know what part you'd like to focus on! 🚀
 
